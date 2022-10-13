@@ -2,13 +2,14 @@
 
 class Main {
     + static void main(String[] args)
+
 }
 
 class Car {
-    - final String make;
-    - final String model;
-    - final int year;
-    - final String bodyStyle;
+    - String make;
+    - String model;
+    - int year;
+    - String bodyStyle;
     - Driver driver;
 
     + Car(String make, String model, int year, String bodyStyle)
